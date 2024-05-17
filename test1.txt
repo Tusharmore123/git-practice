@@ -1,0 +1,6 @@
+1)to initialize git we use command:-git init
+2)to install git official website is:git-scm.command
+3)git config --global core.editor "code --wait":- these command is used to show all the teraminal
+message i.e vim file will be opened in vs code 
+4)git add . :- add all the files in folder 
+
