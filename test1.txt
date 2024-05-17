@@ -3,4 +3,8 @@
 3)git config --global core.editor "code --wait":- these command is used to show all the teraminal
 message i.e vim file will be opened in vs code 
 4)git add . :- add all the files in folder 
+5)git checkout <branch or head>:-move to other branches or previous commits
+
+6)git diff :-to see the changes in file before before staged or commits
+7)git diff --stage:difference between the files after staged and previous 
 
