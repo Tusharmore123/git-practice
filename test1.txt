@@ -9,3 +9,4 @@ message i.e vim file will be opened in vs code
 7)git diff --stage:difference between the files after staged and previous staged
 (in diff ++ and -- doesnt means the added or deleted it defines of file name)
 
+8)git merge <branchname>:merge other branch into current branch
