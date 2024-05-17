@@ -6,5 +6,6 @@ message i.e vim file will be opened in vs code
 5)git checkout <branch or head>:-move to other branches or previous commits
 
 6)git diff :-to see the changes in file before before staged or commits
-7)git diff --stage:difference between the files after staged and previous 
+7)git diff --stage:difference between the files after staged and previous staged
+(in diff ++ and -- doesnt means the added or deleted it defines of file name)
 
