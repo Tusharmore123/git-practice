@@ -33,3 +33,9 @@ we can pop these changes to any branches
 18)git stash:move to other branch without commiting or stagging changes
 19)git stash pop:get stash changes
 20)git stash apply:apply stash changes and keep
+
+
+21)git remote add origin <url>:-add remote origin
+22)git push -u origin main:push the commits to  remote
+by adding -u it keep tracks on the current branch so that when we push next time we can just write git push
+23)git remote -v:-check the current remote origin
