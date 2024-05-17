@@ -9,3 +9,8 @@ message i.e vim file will be opened in vs code
 7)git diff --stage:difference between the files after staged and previous staged
 (in diff ++ and -- doesnt means the added or deleted it defines of file name)
 
+8)git branch:-to get the current branch
+9)git checkout <branchname>:-to switch to the branch
+10)git branch <branchname>:-to create new branch
+11)git  switch<branchname>:-switch to other branch
+
