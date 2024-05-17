@@ -9,8 +9,27 @@ message i.e vim file will be opened in vs code
 7)git diff --stage:difference between the files after staged and previous staged
 (in diff ++ and -- doesnt means the added or deleted it defines of file name)
 
-8)git branch:-to get the current branch
-9)git checkout <branchname>:-to switch to the branch
-10)git branch <branchname>:-to create new branch
-11)git  switch<branchname>:-switch to other branch
+8)git merge <branchname>:merge other branch into current branch
+9)git branch:-to get the current branch
+10)git checkout <branchname>:-to switch to the branch
+11)git branch <branchname>:-to create new branch
+12)git  switch<branchname>:-switch to other 
 
+13)git log:show the record of previous commits
+14)git reflog:uppose you moved back to previous head and when you get git log you won't
+be able to see the previous commit .At that git rflog shows all the commits
+
+15)git config --global --list:-get list of global values
+16)git config --global <user.name> <"value">:-config values
+
+17)conflicts:-when  changes  were made to same file by different branches at such time git wont
+be able to understand to keep which change at such time conflicts  are raised
+
+
+suppose u are working on some branch and then u want to move to different branch
+without staging or commiting changes in  such cases stash is used stash is like a store where 
+it store the changes and when u comeback to same branch to get those changes  back we use git stack pop
+we can pop these changes to any branches
+18)git stash:move to other branch without commiting or stagging changes
+19)git stash pop:get stash changes
+20)git stash apply:apply stash changes and keep
